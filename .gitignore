@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+.env
+.env.local
+*.pt
+*.pth
+*.pkl
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+.vscode/
+.idea/
