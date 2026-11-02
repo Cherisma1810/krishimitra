@@ -27,7 +27,7 @@ def train_and_save_empirical_model():
 
 
     if "label" in df.columns:
-        df.rename(columns={"label": "crop"}, inplace=True)
+        df = df.rename(columns={"label": "crop"}) 
 
     
     feature_cols = ["N", "P", "K", "temperature", "humidity", "ph", "rainfall"]
